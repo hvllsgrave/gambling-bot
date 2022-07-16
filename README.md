@@ -2,57 +2,62 @@
 A discord bot that you can gamble real money (crypto) against the house or other players.
 Created and maintained by vol#0001
 
-# Crypto Based Gambling Bot for discord
+# Read Me Template
 
-[![dependencies](https://img.shields.io/david/pepzwee/node-csgo-web-tradebot.svg)](https://github.com/pepzwee/node-csgo-web-tradebot)
-[![npm](https://img.shields.io/npm/l/express.svg?style=flat-square)](https://github.com/pepzwee/node-csgo-web-tradebot/blob/master/LICENSE)
-[![steam](https://img.shields.io/badge/steam-donate-green.svg?style=flat-square)](https://steamcommunity.com/tradeoffer/new/?partner=78261062&token=2_WUiltH)
-[![paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XKPQ3TWDYJ2Z6)
+![Project Image](project-image-url)
 
-### Do not add PEPZ on Steam. If you have a question or need help, look through "Issues" and create a new issue if you can't find an answer.
+> This is a ReadMe template to help save you time and effort.
 
-This is a quickly coded website for people who want to see how these kind of websites work. Before you decide to use this script be aware, that this script, may have bugs.
-I also suggest looking through the code to see how it works, and if you spot an error make a pull request.
+---
 
-# Installation
+### Table of Contents
+You're sections headers will be used to reference location of destination.
 
-Tutorial: [https://steamapis.com/projects/node-csgo-web-tradebot](https://steamapis.com/projects/node-csgo-web-tradebot)
+- [Description](#description)
+- [How To Setup](#how-to-setup)
+- [Dependencies](#dependencies)
+- [References](#references)
+- [Author Info](#author-info)
 
-# API Usage
+---
 
-### Prices
+## Description
 
-The script gets its prices from SteamApis. If you don't feel comfortable with any of the API's this script uses, feel free to change them to your preferred one.
+Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
 
-1. SteamApis.com API for market tier items, using the `safe_price` values provided by it.
+#### Technologies
 
-<pre>* SteamApis provides high tier items as well.</pre>
+- Technology 1
+- Technology 2
 
-### Inventory
+[Back To The Top](#read-me-template)
 
-To avoid Steam rate-limits all inventories are loaded through SteamApis.com inventory proxy. It utilizes thousands of proxies to maintain a high success rate.
+---
 
-### SteamApis.com
+## How To Setup
 
-SteamApis is a paid service. You can get the API key at https://steamapis.com
+#### Dependencies
 
-**You need to enable these endpoints in the Upgrade page:**
 
-- `market/items`
-- `steam/inventory`
+#### API Reference
 
-# Support and Development
+```html
+    <p>dummy code</p>
+```
+[Back To The Top](#read-me-template)
 
-### Development
+---
 
-I don't plan on adding any additional features. But feel free to make any request or even add your own and make a pull request.
+## References
+- Crypto - [Apirone](https://apirone.com/)
+- Provably Fair - [Random.org](https://random.org/)
 
-### Support
+---
+[Back To The Top](#read-me-template)
 
-Keep in mind this project is free and open-source. Don't expect support to be good and fast.
+---
 
-### Contributors
+## Author Info
 
-Author: [PEPZ](https://pepzwee.com)
-You can view the [people who have helped with this project here.](https://github.com/pepzwee/node-csgo-web-tradebot/graphs/contributors)
- Dependancy Updater: [iDefineHD](https://github.com/iDefineHD)
+- Discord - [vol#0001]()
+- Website - [Coming Soon]()
