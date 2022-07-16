@@ -1,8 +1,3 @@
-# crypto-gamble
-A discord bot that you can gamble real money (crypto) against the house or other players.
-
----
-
 ## Table of Contents
 You're sections headers will be used to reference location of destination.
 
@@ -114,5 +109,5 @@ Just use npm i {package-name} in your terminal to install them.
 
 ## Author Info
 
-- Discord - [vol#0001]()
-- Website - [Solo.to](https://solo.to/x2vol)
+- Discord - [vol#0001]
+- Discord - [Server](https://discord.gg/)
