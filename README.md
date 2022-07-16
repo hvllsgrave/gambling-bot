@@ -13,9 +13,9 @@
 This bot uses discord.js so you must have node.js installed to run this application. This bot has automatic litecoin deposits to play with real money, the commands will be listed below.
 
 Games
-- Blackjack
-- Coinflip
-- More coming soon
+- Blackjack - Plays a game of blackjack against the house.
+- Coinflip - Either a user can join or the host of the coinflip can call a bot (house).
+- Mines, Towers, and Limbo on the way.
 
 Crypto
 - Prices - Lists BTC, ETH, LTC, & DOGE current price and percent increase/decrease.
