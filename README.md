@@ -62,9 +62,18 @@ MONGODB_SRV=putSRVhere
 
 Next go to [Apirone](https://apirone.com/) to create your hot wallet. Click Dashboard -> Create now -> Select wallet -> Next -> Select Litecoin -> Create. Now copy the Wallet id and place it where it says 'walletIdHere', and copy the transfer key and put it where it says 'transferKeyHere'.
 ```
- 
+APIRONE_WALLET_ID=walletIdHere
+APIRONE_TRANSFER_KEY=transferKeyHere
 ```
-    
+
+Lastley type a bunch of random letters where it says 'prefixHere', this will make a custom url that looks like {prefix}.loca.lt, this is mandatory as you need this url running to recieve deposit callbacks. 
+```
+LOCALTUNNEL_PREFIX=prefixHere
+``` 
+ 
+To start the bot just run 'nodemon src/index.js' and everything should be good to go! If there are any errors [contact me](#author-info) and I will do my best to help you through your error!
+ 
+Note: Editing any of the .env vairable names will mess up the bot, DO NOT change these at anytime.
 ---
 
 ## Dependencies
@@ -76,6 +85,7 @@ There are 11 dependencies you need to install to have the program to work.
 - @discordjs/rest
 - shuffle-seed
 - body-parser
+- localtunnel
 - discord.js
 - mongoose
 - nodemon
