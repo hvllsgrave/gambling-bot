@@ -2,12 +2,6 @@
 A discord bot that you can gamble real money (crypto) against the house or other players.
 Created and maintained by vol#0001
 
-# Read Me Template
-
-![Project Image](project-image-url)
-
-> This is a ReadMe template to help save you time and effort.
-
 ---
 
 ### Table of Contents
@@ -23,37 +17,56 @@ You're sections headers will be used to reference location of destination.
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
-
-#### Technologies
-
-- Technology 1
-- Technology 2
-
-[Back To The Top](#read-me-template)
-
 ---
 
 ## How To Setup
 
-#### Dependencies
+In your env file there are x number of things you need to fill in!
 
+```
+  BOT_TOKEN=
+  BOT_ID= 
+  GUILD_ID=
+  RND_API_KEY= 
+  MONGODB_SRV= 
+  APIRONE_WALLET_ID= 
+  APIRONE_TRANSFER_KEY= 
+  LOCALTUNNEL_URL=
+```
 
-#### API Reference
+---
 
-```html
+## Dependencies
+
+There are x number of dependencies you need to install to have the program to work.
+
+- @discordjs/builders
+- discord-api-types
+- @discordjs/rest
+- shuffle-seed
+- body-parser
+- discord.js
+- mongoose
+- nodemon
+- express
+- dotenv
+- axios
+
+Just use npm i {package-name} in your terminal to install them.
+
+---
+
+## API Reference
+
+```js
     <p>dummy code</p>
 ```
-[Back To The Top](#read-me-template)
 
 ---
 
 ## References
 - Crypto - [Apirone](https://apirone.com/)
 - Provably Fair - [Random.org](https://random.org/)
-
----
-[Back To The Top](#read-me-template)
 
 ---
 
