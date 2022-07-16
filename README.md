@@ -65,7 +65,8 @@ Just use npm i {package-name} in your terminal to install them.
 ---
 
 ## References
-- Crypto - [Apirone](https://apirone.com/)
+- Crypto Deposits - [Apirone](https://apirone.com/)
+- Crypto Prices - [CryptoCompare](https://cryptocomapre.com)
 - Provably Fair - [Random.org](https://random.org/)
 
 ---
