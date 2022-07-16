@@ -55,6 +55,16 @@ Next go to [API Dashboard](https://api.random.org/) at random.org and create an 
 RND_API_KEY=putApiKeyHere
 ```
 
+Next go to [MongoDB](https://mongodb.com) create an account and sign in. Then create a cluster (A database) and select the free shared cluster. Make a username in password in the access area and whitelist your ip address. Then go to your database and click on connect -> connect to application -> and copy the string and put it where it says 'putSRVhere'. Make sure you replace <password> with the password you set earlier.
+```
+MONGODB_SRV=putSRVhere
+```
+
+Next go to [Apirone](https://apirone.com/) to create your hot wallet. Click Dashboard -> Create now -> Select wallet -> Next -> Select Litecoin -> Create. Now copy the Wallet id and place it where it says 'walletIdHere', and copy the transfer key and put it where it says 'transferKeyHere'.
+```
+ 
+```
+    
 ---
 
 ## Dependencies
@@ -79,7 +89,7 @@ Just use npm i {package-name} in your terminal to install them.
 
 ## API Reference
 
-```js
+```html
     <p>dummy code</p>
 ```
 
