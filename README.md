@@ -133,5 +133,5 @@ Just use npm i {package-name} in your terminal to install them.
 
 ## Author Info
 
-- Discord - [vol#0001]
-- Discord - [Server](https://discord.gg/)
+- Discord - vol#0001
+- Discord - [Server](https://discord.gg/KdU9CDDy6H)
