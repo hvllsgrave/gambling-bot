@@ -1,5 +1,4 @@
 ## Table of Contents
-You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Setup](#how-to-setup)
@@ -10,6 +9,8 @@ You're sections headers will be used to reference location of destination.
 ---
 
 ## Description
+
+This bot uses discord.js so you must have node.js installed to run this application.
 
 ---
 
@@ -28,7 +29,13 @@ APIRONE_TRANSFER_KEY=
 LOCALTUNNEL_URL=
 ```
 
-First head to the [Developer Portal](https://discord.com/developers) and create an application, then create a bot in that application.
+First head to the [Developer Portal](https://discord.com/developers) and create an application, then create a bot in that application. 
+
+To invite the bot to your server, you must head to OAuth2 -> URL Generator. 
+![OAuth2](https://cdn.discordapp.com/attachments/997919313723924650/997919361920671744/IMG_0884.png)
+
+Then you must select these boxs or the bot will not have the correct permissions, then copy the invite link at the bottom.
+![Scopes](https://cdn.discordapp.com/attachments/997919313723924650/997919612647784570/IMG_0885.png)
 
 Copy the token and place it when it says 'putTokenHere'.
 ```
@@ -92,15 +99,8 @@ Just use npm i {package-name} in your terminal to install them.
 
 ---
 
-## API Reference
-
-```html
-    <p>dummy code</p>
-```
-
----
-
 ## References
+- Framework - [Discord.js](https://discord.js.org/)
 - Crypto Deposits - [Apirone](https://apirone.com/)
 - Crypto Prices - [CryptoCompare](https://cryptocompare.com)
 - Provably Fair - [Random.org](https://random.org/)
