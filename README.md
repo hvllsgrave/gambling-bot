@@ -10,7 +10,31 @@
 
 ## Description
 
-This bot uses discord.js so you must have node.js installed to run this application.
+This bot uses discord.js so you must have node.js installed to run this application. This bot has automatic litecoin deposits to play with real money, the commands will be listed below.
+
+Games
+- Blackjack
+- Coinflip
+- More coming soon
+
+Crypto
+- Prices - Lists BTC, ETH, LTC, & DOGE current price and percent increase/decrease.
+- Deposit - Directly messages the user with a deposit address and QR code.
+- Withdraw - Take in an address and amount and withdraws litecoin to the address.
+
+Information
+- Bal - Shows the user their cash balance.
+- Profile - Gives information such as games played, wins, loses, wagered, profit, tipped, airdropped, etc.
+- Leaderboard - Shows top 5 users in each category: Balance, Wagered, and Profit.
+
+Fun
+- Tip - Tips a user balance.
+- Airdrop - Airdrops balance to anyone that clicks the join button.
+- Giveaway - Gives away balance to one lucky winner.
+
+Misc
+- Provably Fair - Gives the verifiable provably fair information on the inputed game id.
+- Help - Gives all the current commands with descriptions.
 
 ---
 
@@ -37,7 +61,7 @@ To invite the bot to your server, you must head to OAuth2 -> URL Generator.
 Then you must select these boxs or the bot will not have the correct permissions, then copy the invite link at the bottom.
 ![Scopes](https://cdn.discordapp.com/attachments/997919313723924650/997919612647784570/IMG_0885.png)
 
-Copy the token and place it when it says 'putTokenHere'.
+Copy the bot token and place it when it says 'putTokenHere'.
 ```
 BOT_TOKEN=putTokenHere
 ```
